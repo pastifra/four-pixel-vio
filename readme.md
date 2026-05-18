@@ -15,7 +15,7 @@ For more details, refer to the [paper](#citation).
 
 </div>
 <br>
-<video src="https://github.com/pastifra/four-pixel-vio/issues/1#issue-4468269996" autoplay loop muted playsinline></video>
+<video src="https://github.com/user-attachments/assets/2a471b57-9d47-4ab7-9e7b-6f7eafe94053" autoplay loop muted playsinline></video>
 
 ## Sensor Simulation Overview
 
@@ -28,7 +28,7 @@ Finally, two signals, $s_{cos}(t)$ and $s_{sin}(t)$, are computed and fed into a
 Since the simulator is **fully differentiable**, the loss is backpropagated to optimize not just the TCN but also the Gabor mask parameters ($\xi_0, \sigma, \alpha$).
 
 <br>
-<video src="https://github.com/pastifra/four-pixel-vio/issues/2#issue-4468281257" autoplay loop muted playsinline></video>
+<video src="https://github.com/user-attachments/assets/97fcd999-3e56-4c83-bb00-0d783d5a3c80" autoplay loop muted playsinline></video>
 
 
 
