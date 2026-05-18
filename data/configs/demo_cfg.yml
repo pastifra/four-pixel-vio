@@ -1,0 +1,40 @@
+global_options:
+  - texture_path: '/media/data/Datasets/matador/sensor_gray'
+  - label_path: '/media/data/Datasets/matador/labels'
+  - tartan_dir: '/media/data/Datasets/Tartan'
+  - epochs: 100 #number of training epochs
+  - batch_size: 1 #simulator requires significant GPU memory - gradient accumulation is set to 16 anyway
+  - switch_epoch: 10 #when to switch from MSE to NLL loss
+  - lr: 0.0001 
+  # SIMULATOR PARAMETERS
+  - img_size: [128, 128] #simulator image size and mask image size
+  - fov: 70.0 # detector field of view in degrees
+  - height: [0.20,0.20] #sensor height relative to the ground - change this to simulate random height variations in an interval (e.g. if [0.15,0.25] then the nominal sensor height is 0.20m but each training sample is generated with a random height in the [0.15,0.25] interval)
+  - displacement: 0.019 #displacement between detectors 
+  - stride: 50 #stride at which 1 second windows of data are generated
+  - sensor_hertz: 1000 #sampling rate of the sensor
+  - trajectory_len: 1000 #window of data fed to the tcn
+  - gt_type: 'mean' #ground truth is mean linear velocity over the last 0.1s of data
+  - legacy_mode: True #Stride 0.5s and per filter on chunks only vs. Stride 0.05s and filter on full trajectory
+  - flip_augment: True #simulates both positive and negative velocity
+  - realistic_sensor: True # simulate read noise and quantization noise
+  - simulate_pd_area_blur: True # simulate area blur of photodiode
+  - simulate_directivity: True # simualte directivity of photodiode
+  - simulate_solid_angle: True # simulate solid angle of photodiode
+  - mincam_sensor_gain: 0.0012243347290119763 #calibrated sensor gain to convert to volt
+  - mincam_sensor_n_bits: 16 #for quantization noise
+  - mincam_sensor_saturation_val: 3.2 # Volts for saturation
+  - mincam_read_noise_std: 0.000175 #standard deviation of read noise
+  - mask_blur_kernel_sigma: [0] #do not change if simulate_pd_area_blur is true
+  - mask_min_value: 0.009882269613863095 #printing on transparency film with inkject transfer function (black is not fully black and transparent is not fully transparent) 
+  - mask_max_value: 0.6721403856424802
+
+gaborcam_model:
+  - freeze_masks: False #If true, then the Gabor mask parameters are not learnable
+  - init_freqs: [6] #Initial frequency of the Gabor masks (in cycles per meters)
+  - full_masks: False #if true, then the masks are not aligned so that they observe the same ground patch area
+  - differential_overlap: False #if true it aligns only the positive and negative masks not also the cosine and sine masks
+
+#freeformcam_model:
+#  - freeform: True #masks are not constrained as gabor functions, but can assume any shape
+

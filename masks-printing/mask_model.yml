@@ -1,0 +1,6 @@
+0:
+- config_path: ../data/configs/demo_cfg.yml
+- checkpoint_path: ../data/models/demo_model.pth
+- pixel_ids: [3, 1, 4, 2] #Do not change this!
+
+#python mask_printing.py -d 1200 -t model --mask_fov 70 --model_list_file mask_model.yml -o mask.png

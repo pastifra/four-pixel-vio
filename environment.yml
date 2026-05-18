@@ -1,0 +1,21 @@
+name: minvio
+channels:
+  - pytorch
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.9
+  - pytorch
+  - torchvision
+  - numpy
+  - scipy
+  - matplotlib
+  - opencv
+  - pillow
+  - imageio
+  - imageio-ffmpeg
+  - pyyaml
+  - jupyter
+  - scikit-learn
+  - tensorboard
+  - scikit-video
