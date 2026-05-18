@@ -52,7 +52,7 @@ To generate data, the simulator uses robot trajectories from Tartan and high-res
 
 Download the Matador images and Tartan trajectories:
 ```bash
-wget TODO
+wget coming soon
 ```
 
 To download a larger set of Tartan trajectories, refer to [TartanAir/TartanGround](https://tartanair.org/tartanground.html)
@@ -87,7 +87,7 @@ tensorboard --logdir data/logs
 
 You can visualize a high-resolution version of the trained masks, ready to be printed on transparency film.
 
-Change the paths in ```masks-printing\mask_model.yml``` if you want to visualize the masks of a model different from the demo model.
+Change the paths in ```masks-printing/mask_model.yml``` if you want to visualize the masks of a model different from the demo model.
 
 ```bash
 cd masks-printing
@@ -122,12 +122,12 @@ four-pixel-vio/
 
 ## Project Video
 ```bash
-TODO
+coming soon
 ```
 
 ## Citation
 ```bash
-TODO
+coming soon
 ```
 
 
