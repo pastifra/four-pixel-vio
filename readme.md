@@ -121,13 +121,21 @@ four-pixel-vio/
 ```
 
 ## Project Video
-```bash
-coming soon
-```
+<div align="center">
+<a href="https://cave.cs.columbia.edu/old/projects/minvio/videos/minvio_website.mp4" target="_blank">
+  <img src="data/demo-imgs/video-teaser.png" alt="Watch the project video" width="640">
+</a>
+<p><em> The video walks through the project. It covers the theoretical intuition behind the sensor, the design of the physically-grounded simulator, and the experimental evaluation across diverse indoor and outdoor terrains. </em></p>
+</div>
+
 
 ## Citation
-```bash
-coming soon
+```bibtex
+@inproceedings{pasti2026minimalistodometry,
+  title        = {Minimalist Visual Inertial Odometry},
+  author       = {Francesco Pasti and Jeremy Klotz and Nicola Bellotto and Shree K. Nayar},
+  year         = {2026}
+}
 ```
 
 
