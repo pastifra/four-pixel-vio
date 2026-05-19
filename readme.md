@@ -52,7 +52,7 @@ To generate data, the simulator uses robot trajectories from Tartan and high-res
 
 Download the Matador images and Tartan trajectories:
 ```bash
-wget coming soon
+wget coming tomorrow
 ```
 
 To download a larger set of Tartan trajectories, refer to [TartanAir/TartanGround](https://tartanair.org/tartanground.html)
