@@ -50,10 +50,7 @@ conda activate four-pixel-vio
 ### Data
 To generate data, the simulator uses robot trajectories from Tartan and high-resolution texture images from Matador.
 
-Download the Matador images and Tartan trajectories:
-```bash
-wget coming tomorrow
-```
+Download the Matador images and Tartan trajectories from [here](https://unipdit-my.sharepoint.com/personal/francesco_pasti_studenti_unipd_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ffrancesco%5Fpasti%5Fstudenti%5Funipd%5Fit%2FDocuments%2FShare%2Ffourpx%5Fsim%5Fdata%2Etar%2Egz&parent=%2Fpersonal%2Ffrancesco%5Fpasti%5Fstudenti%5Funipd%5Fit%2FDocuments%2FShare&ga=1) 
 
 To download a larger set of Tartan trajectories, refer to [TartanAir/TartanGround](https://tartanair.org/tartanground.html)
 
