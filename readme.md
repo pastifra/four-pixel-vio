@@ -50,7 +50,10 @@ conda activate four-pixel-vio
 ### Data
 To generate data, the simulator uses robot trajectories from Tartan and high-resolution texture images from Matador.
 
-Download the Matador images and Tartan trajectories from [here](https://unipdit-my.sharepoint.com/personal/francesco_pasti_studenti_unipd_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ffrancesco%5Fpasti%5Fstudenti%5Funipd%5Fit%2FDocuments%2FShare%2Ffourpx%5Fsim%5Fdata%2Etar%2Egz&parent=%2Fpersonal%2Ffrancesco%5Fpasti%5Fstudenti%5Funipd%5Fit%2FDocuments%2FShare&ga=1) 
+Download the Matador images and Tartan trajectories (~ 91 GB):
+```bash
+wget http://cave.cs.columbia.edu/old/projects/minvio/data/fourpx_sim_data.tar.gz
+```
 
 To download a larger set of Tartan trajectories, refer to [TartanAir/TartanGround](https://tartanair.org/tartanground.html)
 
@@ -128,10 +131,14 @@ four-pixel-vio/
 
 ## Citation
 ```bibtex
-@inproceedings{pasti2026minimalistodometry,
-  title        = {Minimalist Visual Inertial Odometry},
-  author       = {Francesco Pasti and Jeremy Klotz and Nicola Bellotto and Shree K. Nayar},
-  year         = {2026}
+@misc{pasti2026minimalistodometry,
+      title={Minimalist Visual Inertial Odometry}, 
+      author={Francesco Pasti and Jeremy Klotz and Nicola Bellotto and Shree K. Nayar},
+      year={2026},
+      eprint={2605.19990},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2605.19990}, 
 }
 ```
 
