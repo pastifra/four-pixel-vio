@@ -4,7 +4,7 @@
 
 **Odometry with just 4-pixel and an IMU**
 
-[**Installation**](#installation) • [**Quick Start**](#quick-start) • [**Paper**](#citation) • [**Project Video**](#project-video)
+[**Installation**](#installation) • [**Quick Start**](#quick-start) • [**Paper**](#citation) • [**Narrated Video**](#narrated-video)
 
 We built a sensor consisting of 4 masked photodiodes, where each photodiode produces a single scalar value. We model the mask transmittance as Gabor functions, i.e., a sinusoid modulated by a Gaussian envelope. Then, as the sensor moves across arbitrary textures, the measurements from the masked photodiodes robustly encode the linear velocity of the robot. 
 
@@ -120,12 +120,12 @@ four-pixel-vio/
 └── tutorial.ipynb        # Interactive tutorial of the simulator
 ```
 
-## Project Video
+## Narrated Video
 <div align="center">
 <a href="https://cave.cs.columbia.edu/old/projects/minvio/videos/minvio_website.mp4" target="_blank">
   <img src="data/demo-imgs/video-teaser.png" alt="Watch the project video" width="640">
 </a>
-<p><em> The video walks through the project. It covers the theoretical intuition behind the sensor, the design of the physically-grounded simulator, and the experimental evaluation across diverse indoor and outdoor terrains. </em></p>
+<p><em> The video walks through the project (with narration). It covers the theoretical intuition behind the sensor, the design of the physically-grounded simulator, and the experimental evaluation across diverse indoor and outdoor terrains. </em></p>
 </div>
 
 
