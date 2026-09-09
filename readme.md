@@ -6,6 +6,8 @@
 
 [**Installation**](#installation) • [**Quick Start**](#quick-start) • [**Paper**](#citation) • [**Narrated Video**](#narrated-video)
 
+**[Sept. 2026]** Accepted to IEEE Robotics and Automation Letters (RA-L)!
+
 We built a sensor consisting of 4 masked photodiodes, where each photodiode produces a single scalar value. We model the mask transmittance as Gabor functions, i.e., a sinusoid modulated by a Gaussian envelope. Then, as the sensor moves across arbitrary textures, the measurements from the masked photodiodes robustly encode the linear velocity of the robot. 
 
 Pairing this measurement with the angular velocity from an IMU gives the full planar odometry of the sensor.  
