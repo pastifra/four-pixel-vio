@@ -133,14 +133,12 @@ four-pixel-vio/
 
 ## Citation
 ```bibtex
-@misc{pasti2026minimalistodometry,
+@article{pasti2026minimalistodometry,
       title={Minimalist Visual Inertial Odometry}, 
       author={Francesco Pasti and Jeremy Klotz and Nicola Bellotto and Shree K. Nayar},
+      journal={IEEE Robotics and Automation Letters},
       year={2026},
-      eprint={2605.19990},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2605.19990}, 
+      publisher={IEEE}
 }
 ```
 
